@@ -8,7 +8,7 @@ function LogingPage() {
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         <meta property="og:title" content="Around | Inicia sesión" />
         <meta property="og:type" content="website" />
-        <meta property="og:image" content="/office.avif" />
+        <meta property="og:image" content="/public/office.avif" />
         <meta property="og:url" content="https://around.to/login" />
         <meta
           property="og:url"
