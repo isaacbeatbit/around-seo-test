@@ -9,14 +9,14 @@ const Home: NextPage = () => {
       <Head>
         <title>Around | Inicia sesión</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-        <meta property="og:title" content="Around | Inicia sesión" />
+        <meta property="og:title" content="Around | Los mejores espacios de oficinas" />
         <meta
           property="og:description"
           content="Espacio de trabajo con términos y flexibles y soluciones híbridas si tu empresa necesita expandirse globalmente o necesita espacio de oficina cerca de ti. Para todo tus formas de trabajo, estamos aqui."
         />
         <meta property="og:image" content="/office.avif" />
-        <meta property="og:url" content="https://around.to" />
-        <meta property="og:locale" content="es_ES" />
+        <meta property="og:url" content="https://epochs.live" />
+        <meta property="og:locale" content="es_LA" />
         <meta property="og:type" content="website" />
         <meta property="og:site_name" content="Around" />
       </Head>
