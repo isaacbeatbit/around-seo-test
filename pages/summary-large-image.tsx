@@ -12,7 +12,11 @@ function SummaryLargeImage() {
           name="twitter:title"
           content="Around | Summary with large image"
         />
-        <meta name="twitter:image" content="office.jpg" />
+        <meta
+          name="twitter:description"
+          content="Espacio de trabajo con términos y flexibles y soluciones híbridas si tu empresa necesita expandirse"
+        />
+        <meta name="twitter:image" content="https://epochs.live/office.gif" />
       </Head>
       <main>
         <h1>summary large image</h1>
