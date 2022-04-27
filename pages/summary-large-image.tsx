@@ -12,7 +12,7 @@ function SummaryLargeImage() {
           name="twitter:title"
           content="Around | Summary with large image"
         />
-        <meta name="twitter:image" content="/office.jpg" />
+        <meta name="twitter:image" content="office.jpg" />
       </Head>
       <main>
         <h1>summary large image</h1>
