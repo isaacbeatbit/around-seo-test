@@ -1,7 +1,7 @@
-import type { NextPage } from 'next'
-import Head from 'next/head'
-import Image from 'next/image'
-import styles from '../styles/Home.module.css'
+import type { NextPage } from "next";
+import Head from "next/head";
+import Image from "next/image";
+import styles from "../styles/Home.module.css";
 
 const Home: NextPage = () => {
   return (
@@ -9,19 +9,25 @@ const Home: NextPage = () => {
       <Head>
         <title>Around | Inicia sesión</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-        <meta property="og:title" content="Around | Los mejores espacios de oficinas" />
+        <meta
+          property="og:title"
+          content="Around | Los mejores espacios de oficinas"
+        />
         <meta
           property="og:description"
           content="Espacio de trabajo con términos y flexibles y soluciones híbridas si tu empresa necesita expandirse globalmente o necesita espacio de oficina cerca de ti. Para todo tus formas de trabajo, estamos aqui."
         />
         {/* fb */}
-        <meta property="og:image" content="https://www.epochs.live/office.jpg" />
+        <meta
+          property="og:image"
+          content="https://www.epochs.live/office.jpg"
+        />
         <meta property="og:url" content="https://epochs.live" />
         <meta property="og:locale" content="es_LA" />
         <meta property="og:type" content="website" />
         <meta property="og:site_name" content="Around" />
         {/* twitter */}
-        <meta name='twitter:card' content='sumary_large_image' />
+        <meta name="twitter:card" content="sumary_large_image" />
       </Head>
 
       <main className={styles.main}>
@@ -30,7 +36,7 @@ const Home: NextPage = () => {
         </h1>
 
         <p className={styles.description}>
-          Get started by editing{' '}
+          Get started by editing{" "}
           <code className={styles.code}>pages/index.tsx</code>
         </p>
 
@@ -71,14 +77,14 @@ const Home: NextPage = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Powered by{' '}
+          Powered by{" "}
           <span className={styles.logo}>
             <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
           </span>
         </a>
       </footer>
     </div>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;
