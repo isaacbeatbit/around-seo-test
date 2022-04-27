@@ -10,7 +10,7 @@ function SummaryLargeImage() {
         <meta name="twitter:creator" content="@ar_creator_1" />
         <meta
           name="twitter:image"
-          content="https://www.epochs.live/office.gif"
+          content="office.gif"
         />
       </Head>
       <main>
