@@ -14,11 +14,14 @@ const Home: NextPage = () => {
           property="og:description"
           content="Espacio de trabajo con términos y flexibles y soluciones híbridas si tu empresa necesita expandirse globalmente o necesita espacio de oficina cerca de ti. Para todo tus formas de trabajo, estamos aqui."
         />
+        {/* fb */}
         <meta property="og:image" content="https://www.epochs.live/office.jpg" />
         <meta property="og:url" content="https://epochs.live" />
         <meta property="og:locale" content="es_LA" />
         <meta property="og:type" content="website" />
         <meta property="og:site_name" content="Around" />
+        {/* twitter */}
+        <meta name='twitter:card' content='sumary_large_image' />
       </Head>
 
       <main className={styles.main}>
